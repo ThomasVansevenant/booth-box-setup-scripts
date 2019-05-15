@@ -50,13 +50,11 @@ code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.debugger-for-edge
 
 #--- Tools ---
-choco install -y visualstudio2017community --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
+choco install -y visualstudio2019community --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
 Update-SessionEnvironment #refreshing env due to Git install
-choco install -y visualstudio2017-workload-azure
-choco install -y visualstudio2017-workload-universal
+choco install -y visualstudio2019-workload-azure
 choco install -y nodejs-lts # Node.js LTS, Recommended for most users
-choco install -y visualstudio2017buildtools
-choco install -y visualstudio2017-workload-vctools
+choco install -y visualstudio2019buildtools
 choco install -y python2 # Node.js requires Python 2 to build native modules
 
 #--- Background image ---
