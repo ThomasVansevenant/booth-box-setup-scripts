@@ -37,7 +37,7 @@ code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.debugger-for-edge
 
 #--- Tools ---
-choco install -y visualstudio2019professional --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
+choco install -y visualstudio2019professional
 
 Update-SessionEnvironment #refreshing env due to Git install
 choco install -y visualstudio2019-workload-azure
