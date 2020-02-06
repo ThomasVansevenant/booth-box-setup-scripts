@@ -45,7 +45,6 @@ choco install -y visualstudio2019buildtools
 choco install -y python2 # Node.js requires Python 2 to build native modules
 
 
-
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula
